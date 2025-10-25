@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Maven+Pro:wght@400..900&family=Saira:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* Apply font to all elements */
+* {
+    font-family:'Maven Pro', 'Saira', sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: #a15b48a7;
+    min-width: 310px;
+    color: white;
+}
+
+.vh-90 {
+    height: 90vh;
+}
+
+.bg-gold{
+    background-image: linear-gradient(to right bottom, #44291a, #a15b48a7, #f7d6cf);
+}
+
+.bg-iced{
+    background-image: linear-gradient(to right bottom, #dfe0e2, #b8bcc3, #787a84);
+}
+
+.btn-primary {
+    background-color: rgb(36, 112, 233);
+}
