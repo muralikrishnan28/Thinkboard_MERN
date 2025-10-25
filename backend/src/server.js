@@ -5,13 +5,12 @@ import dotenv from "dotenv";
 import { DbConnect } from "./config/db.js";
 import rateLimiter from "./middleware/rateLimiter.js";
 
-
 dotenv.config();
 const app = express();
 const PORT = process.env.PORT || 5001;
 
 const allowedOrigins = [
-  "https://your-frontend-app.onrender.com", // deployed frontend
+  "https://thinkboard-mern-frontend.onrender.com",
   "http://localhost:5173" // local development
 ];
 
